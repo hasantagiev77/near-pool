@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'exchange.ref-dev.testnet' || 'hasan4.testnet'; /* TODO: change this to your account */
+const CONTRACT_NAME = process.env.CONTRACT_NAME || 'exchange.ref-dev.testnet'; /* TODO: change this to your account */
 
 function getConfig (env) {
   switch (env) {
